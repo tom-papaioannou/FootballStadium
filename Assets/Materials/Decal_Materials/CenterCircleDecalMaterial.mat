@@ -1,18 +1,5 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-8289324126423062499
-MonoBehaviour:
-  m_ObjectHideFlags: 11
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Unity.RenderPipelines.Universal.Editor::UnityEditor.Rendering.Universal.AssetVersion
-  version: 10
 --- !u!21 &2100000
 Material:
   serializedVersion: 8
@@ -20,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: New URP Decal 1
+  m_Name: CenterCircleDecalMaterial
   m_Shader: {fileID: -6465566751694194690, guid: 9b4e681081e2b4c469111bb649e2f7ee, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -37,7 +24,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - Base_Map:
-        m_Texture: {fileID: 2800000, guid: a0257954f37a67145bc7982961d5f14f, type: 3}
+        m_Texture: {fileID: 2800000, guid: af8182f459b56134a8182fd3a720abe0, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - Normal_Map:
@@ -66,3 +53,16 @@ Material:
     m_Colors: []
   m_BuildTextureStacks: []
   m_AllowLocking: 1
+--- !u!114 &4948835978300513611
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.RenderPipelines.Universal.Editor::UnityEditor.Rendering.Universal.AssetVersion
+  version: 10
